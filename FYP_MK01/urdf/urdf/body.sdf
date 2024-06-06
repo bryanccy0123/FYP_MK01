@@ -1,0 +1,36 @@
+<sdf version='1.7'>
+  <model name='body'>
+    <link name='body'>
+      <inertial>
+        <pose>0.40028 -0.17084 -0.28 0 -0 0</pose>
+        <mass>148.06</mass>
+        <inertia>
+          <ixx>5.2811</ixx>
+          <ixy>-0.0081074</ixy>
+          <ixz>-1.7558e-10</ixz>
+          <iyy>11.5</iyy>
+          <iyz>-2.47496e-16</iyz>
+          <izz>9.019</izz>
+        </inertia>
+      </inertial>
+      <collision name='body_collision'>
+        <pose>0 0 0 1.5708 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://body/meshes/body.dae</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name='body_visual'>
+        <pose>0 0 0 1.5708 -0 0</pose>
+        <geometry>
+          <mesh>
+            <scale>1 1 1</scale>
+            <uri>model://body/meshes/body.dae</uri>
+          </mesh>
+        </geometry>
+      </visual>
+    </link>
+  </model>
+</sdf>
