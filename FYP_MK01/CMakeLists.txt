@@ -2,7 +2,6 @@ cmake_minimum_required(VERSION 3.5)
 project(MK01)
 
 find_package(ament_cmake REQUIRED)
-find_package(nav2_common REQUIRED)
 find_package(navigation2 REQUIRED)
 
 nav2_package()
